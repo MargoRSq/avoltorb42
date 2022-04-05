@@ -1,0 +1,4 @@
+.vscode/
+objs/
+**.DS_Store/
+push_swap_tester/
