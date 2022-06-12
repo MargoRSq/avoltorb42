@@ -1,0 +1,102 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   philo.h                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: svyatoslav <svyatoslav@student.42.fr>      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/04/06 11:25:28 by avoltorb          #+#    #+#             */
+/*   Updated: 2022/06/12 15:43:30 by svyatoslav       ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#ifndef PHILO_H
+# define PHILO_H
+
+# include <stdlib.h>
+# include <stdio.h>
+# include <unistd.h>
+# include <sys/time.h>
+# include <pthread.h>
+# include <semaphore.h>
+# include <signal.h>
+
+# define MAXINT 2147483647
+# define MININT -2147483647
+
+# define PHSEM "phsem"
+
+enum e_execution_result
+{
+	OK = 0,
+	NOT_OK = 1
+};
+enum e_condition
+{
+	SOMEONE_IS_DEAD = 2,
+	EVERYBODY_ALIVE = 4
+};
+
+typedef struct s_time
+{
+	int					ms_die;
+	int					ms_eat;
+	int					ms_sleep;
+	long				ms_passed;
+	long				time_start;
+	enum e_condition	general_condition;
+	sem_t				*eating_forks;
+	sem_t				*output;
+	sem_t				*main_sem;
+	sem_t				*stop_eating;
+}	t_time;
+
+typedef struct s_philosopher
+{
+	int					philo_index;
+	int					ms_last_eating;
+	int					count_eating;
+	t_time				*tdata;
+	sem_t				*ready;
+	pid_t				pid;
+}				t_philo;
+
+typedef struct s_params
+{
+	int					amount;
+	int					count_eating;
+	pid_t				*pids;
+	t_philo				*philos;
+	t_time				*tdata;
+	pthread_mutex_t		*eating_forks_mutexes;
+}				t_pms;
+
+/*
+	init.c
+*/
+void	ft_init(t_pms *pms);
+
+/*
+	utils.c
+*/
+long	ft_atoi(const char *str);
+long	ft_ms_timestamp(void);
+void	ft_improved_usleep(long time_ms);
+void	ft_free(t_pms *pms);
+char	*make_semaphore_name(char *base, char *buffer, int position);
+
+/*
+	parser.c
+*/
+void	ft_parse(int argc, char **argv, t_pms *pms, t_time *tdata);
+void	ft_exit(char *str);
+
+/*
+	threads.c
+*/
+int		ft_create_threads(t_pms *pms);
+void	ft_print(t_philo *philo, char *message);
+void	ft_print_time(t_philo *philo, long start, long end, char *message);
+void	ft_philo_routine(t_philo *philo);
+
+#endif
