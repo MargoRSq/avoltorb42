@@ -1,21 +1,26 @@
-# École 42 projects
+<h1> École 42 projects </h1>
 42 is a future-proof computer science training to educate the next generation of software engineers. The 42 program takes a project-based approach to progress and is designed to develop technical and people skills that match the expectations of the labor market.
-<div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/42_Logo.svg/1024px-42_Logo.svg.png" width="300" height="300" />
+
+
+<div style="display: flex; flex-direction: row;">
+  <a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cld6fz08500210flcee07spu2/stats?cursusId=9&coalitionId=96" alt="avoltorb's 42 stats" /></a>
+  <a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cld6fz08500210flcee07spu2/stats?cursusId=21&coalitionId=89" alt="avoltorb's 42 stats" /></a>
 </div>
 
-<!-- # clang -->
-- [École 42 projects](#école-42-projects)
-  - [libft (Grade: 125/125)](#libft-grade-125125)
-  - [get\_next\_line (Grade: 125/125)](#get_next_line-grade-125125)
-  - [ft\_printf (Grade: 125/125)](#ft_printf-grade-125125)
-  - [so\_long (Grade: 115/125)](#so_long-grade-115125)
-  - [minitalk (Grade: 125/125)](#minitalk-grade-125125)
-  - [push\_swap (Grade: 125/125)](#push_swap-grade-125125)
-  - [philosophers (Grade: 125/125)](#philosophers-grade-125125)
+
+<h3>Sections</h3>
+
+- [libft (Grade: 125/125)](#libft-grade-125125)
+- [get\_next\_line (Grade: 125/125)](#get_next_line-grade-125125)
+- [ft\_printf (Grade: 125/125)](#ft_printf-grade-125125)
+- [so\_long (Grade: 115/125)](#so_long-grade-115125)
+- [minitalk (Grade: 125/125)](#minitalk-grade-125125)
+- [push\_swap (Grade: 125/125)](#push_swap-grade-125125)
+- [philosophers (Grade: 125/125)](#philosophers-grade-125125)
 
 ## libft (Grade: 125/125)
 This project is about understanding the way these functions work, implementing and learning to use them.
+
 **Mandatory part**
 
 - Implement the following functions
