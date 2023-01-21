@@ -56,11 +56,11 @@ This project is a very small 2D game. Its purpose is to make you work with textu
   <img src="https://sun9-east.userapi.com/sun9-32/s/v1/ig2/ZjsCd8o_K9arYXn-OWA2RYeata5_Pakw-VFjaw0T4JAbZq6rvc7QwrsK-loaCUMgn-b61CalvZZ53hqZlFfeDESa.jpg?size=762x342&quality=96&type=album" height="300" />
 
 **Mandatory part**
-- draw a map, sprites, textures
-- game logic
+- Draw a map, sprites, textures
+- Implement simple game logic
 
 **Bonus part**
-- create enemies
+- Create enemies and maybe animate them
 
 
 ## minitalk (Grade: 125/125)
