@@ -2,7 +2,7 @@
 42 is a future-proof computer science training to educate the next generation of software engineers. The 42 program takes a project-based approach to progress and is designed to develop technical and people skills that match the expectations of the labor market.
 
 
-<div style="display: flex; flex-direction: row;">
+<div style="display: flex;">
   <a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cld6fz08500210flcee07spu2/stats?cursusId=9&coalitionId=96" alt="avoltorb's 42 stats" /></a>
   <a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cld6fz08500210flcee07spu2/stats?cursusId=21&coalitionId=89" alt="avoltorb's 42 stats" /></a>
 </div>
