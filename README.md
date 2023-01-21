@@ -4,18 +4,17 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/42_Logo.svg/1024px-42_Logo.svg.png" width="300" height="300" />
 </div>
 
-## clang
+<!-- # clang -->
 - [École 42 projects](#école-42-projects)
-  - [clang](#clang)
-    - [libft (Grade: 125/125)](#libft-grade-125125)
-    - [get\_next\_line (Grade: 125/125)](#get_next_line-grade-125125)
-    - [ft\_printf (Grade: 125/125)](#ft_printf-grade-125125)
-    - [so\_long (Grade: 115/125)](#so_long-grade-115125)
-    - [minitalk (Grade: 125/125)](#minitalk-grade-125125)
-    - [push\_swap (Grade: 125/125)](#push_swap-grade-125125)
-    - [philosophers (Grade: 125/125)](#philosophers-grade-125125)
+  - [libft (Grade: 125/125)](#libft-grade-125125)
+  - [get\_next\_line (Grade: 125/125)](#get_next_line-grade-125125)
+  - [ft\_printf (Grade: 125/125)](#ft_printf-grade-125125)
+  - [so\_long (Grade: 115/125)](#so_long-grade-115125)
+  - [minitalk (Grade: 125/125)](#minitalk-grade-125125)
+  - [push\_swap (Grade: 125/125)](#push_swap-grade-125125)
+  - [philosophers (Grade: 125/125)](#philosophers-grade-125125)
 
-### libft (Grade: 125/125)
+## libft (Grade: 125/125)
 This project is about understanding the way these functions work, implementing and learning to use them.
 **Mandatory part**
 
@@ -30,7 +29,7 @@ This project is about understanding the way these functions work, implementing a
 - Implement the following functions
   - `ft_lstnew`, `ft_lstmap`, `ft_lstiter`, `ft_lstclear`, `ft_lstdelone`, `ft_lstadd_back`, `ft_lstlast`, `ft_lstsize`, `ft_lstadd_front`, `ft_lstnew`
 
-### get_next_line (Grade: 125/125)
+## get_next_line (Grade: 125/125)
 This project is about programming a function that returns a line read from a file descriptor.
 
 **Mandatory part**
@@ -40,7 +39,7 @@ This project is about programming a function that returns a line read from a fil
 - `get_next_line()` can manage multiple file descriptors at the same time
 
 
-### ft_printf (Grade: 125/125)
+## ft_printf (Grade: 125/125)
 The key a successful ft_printf is a well-structured and extensible code.
 
 **Mandatory part**
@@ -52,7 +51,7 @@ The key a successful ft_printf is a well-structured and extensible code.
 - Manage all the following flags: `# +` (Yes, one of them is a space)
 
 
-### so_long (Grade: 115/125)
+## so_long (Grade: 115/125)
 This project is a very small 2D game. Its purpose is to make you work with textures, sprites, and some other very basic gameplay elements.
   <img src="https://sun9-east.userapi.com/sun9-32/s/v1/ig2/ZjsCd8o_K9arYXn-OWA2RYeata5_Pakw-VFjaw0T4JAbZq6rvc7QwrsK-loaCUMgn-b61CalvZZ53hqZlFfeDESa.jpg?size=762x342&quality=96&type=album" height="300" />
 
@@ -64,7 +63,7 @@ This project is a very small 2D game. Its purpose is to make you work with textu
 - create enemies
 
 
-### minitalk (Grade: 125/125)
+## minitalk (Grade: 125/125)
 The purpose of this project is to code a small data exchange program using UNIX signals
 
 **Mandatory part**
@@ -75,7 +74,7 @@ The purpose of this project is to code a small data exchange program using UNIX 
 - The server acknowledges every message received by sending back a signal to the client.
 - Unicode characters support
 
-### push_swap (Grade: 125/125)
+## push_swap (Grade: 125/125)
 Write a program in C called `push_swap` which calculates and displays on the standard output the smallest program, made of Push swap language instructions, that sorts the integers received as arguments.
 
 - You have 2 stacks named a and b.
@@ -91,7 +90,7 @@ Write a program in C called `push_swap` which calculates and displays on the sta
 **Bonus part**
 - The `checker` program
 
-### philosophers (Grade: 125/125)
+## philosophers (Grade: 125/125)
 This project is a training to multi-threads/multi-process programming with the use of mutex and semaphore. 
 It contains 2 different programs simulating a twist of the famous Dining Philosophers problem.
 
